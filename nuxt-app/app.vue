@@ -3,5 +3,6 @@
 </template>
 
 <script setup>
-const { data } = await useFetch('http://localhost:1337/api/movies?populate=imgURL')
+  // import MovieList from './components/MovieList.vue'
+  const { data } = await useFetch('https://review-site-txzr.onrender.com/api/movies?populate=imgURL')
 </script>
