@@ -1,8 +1,18 @@
 <template>
-  <Suspense>
-      <MovieList v-if="data" :movies="data" />
-      <h1 v-else id="null-data">Hello World</h1>
-  </Suspense>
+  <header class="container">
+
+  </header>
+
+  <main class="container">
+    <Suspense>
+        <MovieList v-if="data" :movies="data" />
+        <h1 v-else>Null Data</h1>
+    </Suspense>
+  </main>
+
+  <footer class="container">
+
+  </footer>
 </template>
 
 <script setup>
