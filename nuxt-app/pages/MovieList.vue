@@ -30,3 +30,4 @@ const getImgUrl = (movie) => {
   
 </style>
 
+
