@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="container">
+    <header>
       <nav>
         <ul>
           <li><NuxtLink to="/">Home</NuxtLink></li>
@@ -28,5 +28,13 @@
 </script>
 
 <style scoped>
+  header{
+    background-color: rgb(218, 218, 218);
+    /* box shadow below */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  header nav li{
+    margin-left: 2rem;
+  }
 
 </style>

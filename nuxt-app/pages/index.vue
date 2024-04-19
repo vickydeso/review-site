@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="movie-temp">
       <header>
         <h1>Welcome to Movie Reviews</h1>
       </header>
@@ -21,6 +21,10 @@
   </script>
   
   <style>
-  
+    .movie-temp{
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 1000px;
+    }
   </style>
   
