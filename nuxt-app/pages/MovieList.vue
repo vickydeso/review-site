@@ -15,15 +15,15 @@
 </template>
 
 <script setup>
-const props = defineProps({
-  movies: Object 
-});
+  const props = defineProps({
+    movies: Object 
+  });
 
-const BASE_URL = 'https://review-site-txzr.onrender.com';
+  const BASE_URL = 'https://review-site-txzr.onrender.com';
 
-const getImgUrl = (movie) => {
-  return `${BASE_URL}${movie.attributes.imgURL.data.attributes.formats.small.url}`;
-};
+  const getImgUrl = (movie) => {
+    return `${BASE_URL}${movie.attributes.imgURL.data.attributes.formats.small.url}`;
+  };
 </script>
 
 <style scoped>
