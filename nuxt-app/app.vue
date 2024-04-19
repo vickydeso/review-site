@@ -1,12 +1,7 @@
 <template>
   <div>
     <header class="container">
-      <nav>
-        <ul>
-          <li><nuxt-link to="/">Home</nuxt-link></li>
-          <li><nuxt-link to="/MoviesList">Movies</nuxt-link></li>
-        </ul>
-      </nav>
+
     </header>
 
     <main class="container">
