@@ -19,6 +19,7 @@ defineProps({
             <img :src="BASE_URL + movie.attributes.imgURL.data.attributes.formats.small.url" :alt="movie.attributes.title">
         </div>
       </li>
+
     </ul>
   </div>
 </template>
