@@ -5,7 +5,8 @@
 
   <main class="container">
     <Suspense>
-        <MovieList v-if="data" :movies="data" />
+        <MovieList v-if="data" :movies="data.data" />
+        <!-- <p v-if="data"> {{ data }} </p> -->
         <h1 v-else>Null Data</h1>
     </Suspense>
   </main>
@@ -16,5 +17,5 @@
 </template>
 
 <script setup>
-  const { data } = await useFetch('https://review-site-txzr.onrender.com/api/movies?populate=imgURL')
+  const { data } = await useFetch('https://strapi-v2-wjlk.onrender.com/api/movies?populate=imgURL')
 </script>
